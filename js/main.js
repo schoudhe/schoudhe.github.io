@@ -79,7 +79,7 @@ function formatJSON() {
 
 	$.ajax({
 	  type: "POST",
-	  url: '104.131.79.13:8000/boardtemplates',
+	  url: '104.131.79.13:8000/boardtemplates/',
 	  data: data
 	});
 console.log("here");
