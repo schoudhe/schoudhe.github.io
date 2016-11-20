@@ -80,6 +80,8 @@ function formatJSON() {
 	$.ajax({
 	  type: "POST",
 	  url: '104.131.79.13:8000/boardtemplates/',
+	  contentType: "application/json; charset=utf-8",
+      dataType: "json",
 	  data: data
 	});
 console.log("here");
